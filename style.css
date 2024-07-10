@@ -92,3 +92,44 @@ p {
     left: 0;
     clip-path: circle(600px at right 800px);
 }
+
+
+@media (min-width: 768px) {
+    .conteudo {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    .caixa-texto {
+        width: 600px;
+    }
+
+    .caixa-imagem {
+        width: 600px;
+        justify-content: flex-end;
+        margin-top: 0;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    span {
+        font-size: 70px;
+    }
+
+    .logo {
+        width: 80px;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        padding: 20px 100px;
+    }
+    
+    .circulo {
+        clip-path: circle(600px at right 800px);
+    }
+}
