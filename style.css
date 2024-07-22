@@ -133,3 +133,22 @@ p {
         clip-path: circle(600px at right 800px);
     }
 }
+@media (max-width: 480px){
+ 
+    h1{
+        font-size:24px;
+    }
+
+    span {
+    font-size: 28px;
+    }
+
+    .circulo{
+        height: 800px;
+        clip-path: circle(180px at right 600px);
+    }
+    .copao{
+        width:100%;
+        max-width: 200px;
+    }
+}
